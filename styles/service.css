@@ -1,0 +1,87 @@
+/* ---Наши услуги--- */
+
+.services {
+    margin-bottom: 62px ;
+}
+
+.services-block {
+    padding-top: 48px;
+
+}
+
+.services__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services__title {
+    display: flex;
+}
+.title_services-content {
+    margin-bottom: 35px;
+    margin-left: 23px;
+}
+
+.services__cards  {
+    margin-bottom: 10px;
+    width: 49%;
+    padding: 55px 0 30px 53px;
+}
+
+.services__text {
+    width: 303px;
+}
+
+.services__text_corp {
+    width: 416px;
+}
+
+.services__cards_installation {
+    background: linear-gradient(90deg, #FFFFFF 45%, rgba(255, 255, 255, 0) 98.81%), url(../images/install.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    border-radius: 3px;
+    margin-right: 10px;
+    
+}
+
+.services__cards_glazing-balcony {
+    background: linear-gradient(90deg, #FFFFFF 40%, rgba(255, 255, 255, 0) 98.81%), url(../images/balcony.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px auto;
+    border-radius: 3px;
+    background-position: absolute;
+    filter: drop-shadow(2px 2px 3px #696969);
+}
+
+.services__cards_glazing-cottage {
+    background: linear-gradient(90deg, #FFFFFF 50%, rgba(255, 255, 255, 0) 98.81%), url(../images/cottage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    margin-right: 10px;
+    
+} 
+
+.services__cards_glazing-corp {
+        background: linear-gradient(90deg, #FFFFFF 50%, rgba(255, 255, 255, 0) 98.81%), url(../images/corp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:992px) {
+
+    .services__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services__cards {
+        margin: 21px  auto;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+}

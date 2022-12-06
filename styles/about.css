@@ -1,0 +1,212 @@
+/* О нас */
+
+.about__tabs {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.about__tabs-item {
+    margin-right: 30px;
+    border: none;
+    color: #2F2F51;
+    font-size: 18px;
+    padding: 8px 25px 10px 25px;
+}
+
+.about__tabs-item:hover {
+    padding: 8px 25px 10px 25px;
+    align-items: center;
+    background-color: #ef7f04;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 0.4px 0 0 currentColor;
+}
+
+/* меню через список, пока убираем, потому что сделал как Иван через button */
+/* .about__navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px; 
+
+}
+
+.about__navigation-list {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.about-list__item {
+    margin-right: 70px;
+    list-style: none;
+}
+
+.about-list__item-link {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    padding: 8px 25px 10px 25px;
+}
+
+.about-list__item-link:hover {
+    align-items: center;
+    padding: 8px 25px 10px 25px;
+    background-color: #ef7f04;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 0.4px 0 0 currentColor;
+}
+
+
+.about-list__item-link_selected {
+    align-items: center;
+    padding: 8px 25px 10px 25px;
+    background-color: #ef7f04;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 0.4px 0 0 currentColor;
+} */
+/* Поле с лого и мужиком */
+
+.about__content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    background-color: white;
+    margin-bottom: 68px;
+    height: 461px;
+}
+
+.about__mission {
+    width: 50%;
+    padding: 50px;
+}
+
+.about__mission-text {
+    width: 305px;
+    position:relative; 
+    left: 200px; top: 35px;
+    line-height: 1.5;
+}
+
+.about__img {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Меню из шести иконок */
+
+.about__options {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 68px 48px 82px 40px;
+}
+
+.options__content{
+    display: flex;
+    width: 33%;
+    /* margin-bottom: 70px; */
+}
+
+.options__title {
+    text-transform: uppercase;
+    color: 
+    #2F2F51;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.options__img{
+    margin-right: 23px;
+}
+
+.options__content:nth-child(1),
+.options__content:nth-child(2),
+.options__content:nth-child(3) {
+    margin-bottom: 101px;
+}
+
+.about__button {
+    display: flex;
+    justify-content: center; 
+}
+
+.about__button_theme {
+    display: flex;
+    align-items: center;
+    padding: 18px 19px 12px 14px;
+    color: white;
+    border: white;
+    border-radius: 3px;
+    font-weight: 700;
+    background-color: #3B3A63;
+}
+
+.about__button_theme > img {
+    margin-right: 13px;
+}
+
+.about__button_theme:hover {
+    background-color: #EF7F04;
+}
+
+
+@media screen and (max-width:992px) {
+
+    .about__content {
+        width:880px;
+        height: 461px;
+        margin: 0 auto;
+        display: flex;
+
+
+    }
+
+    .about__mission {
+        padding-top: 46px;
+        padding-left: 28px;
+        width: 433px;
+    }
+
+    .about__img {
+        width: 447px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__img img {
+        height: 100%;
+        width: auto;
+    }
+
+    .about__mission-text {
+        width: 277px;
+        position:relative; 
+        left: 100px; top: 35px;
+    }
+
+    .about__options {
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+
+    .options__content {
+        width: 371px;
+    }
+
+    .options__content:nth-child(1),
+.options__content:nth-child(2),
+.options__content:nth-child(3) {
+    margin-bottom: 40px;
+}
+
+.options__content:nth-child(4), .options__content:nth-child(6) {
+    padding-left: 20px;
+}
+
+}
